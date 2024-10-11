@@ -4,13 +4,19 @@ body {
 }
 
 .uber-btn {
-  height: 45px;
-  width: 120px;
+  height: 50px;
+  width: 140px;
   background-color: rgba(10, 10, 10, 0.977);
   border: none;
   color: white;
   cursor: pointer;
   font-weight: 700;
+  font-size: 15px;
+  transition: opacity 0.15s;
+}
+
+.uber-btn:hover {
+  opacity: 0.7;
 }
 
 .amazon-btn {
@@ -23,6 +29,11 @@ body {
   border-radius: 30px;
   font-size: 18px;
   font-weight: 700;
+  transition: background-color 0.15s;
+}
+
+.amazon-btn:hover {
+  background-color: rgb(228, 191, 8);
 }
 
 .github-btn {
@@ -35,6 +46,11 @@ body {
   font-weight: 700;
   border-radius: 6px;
   cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.github-btn:hover {
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 #getStarted-btn {
@@ -47,6 +63,10 @@ body {
   font-size: 13px;
   font-weight: 700;
   cursor: pointer;
+  transition: background-color 0.15s;
+}
+#getStarted-btn:hover {
+  background-color: rgb(101, 62, 158);
 }
 
 #download-btn {
@@ -59,6 +79,12 @@ body {
   color: rgb(117, 112, 112);
   background-color: rgb(253, 250, 250);
   cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+#download-btn:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
 }
 
 #apply-btn {
@@ -71,15 +97,27 @@ body {
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+#apply-btn:hover {
+  background-color: rgb(19, 77, 136);
 }
 
 #save-btn {
   height: 42px;
   width: 80px;
   border: 1px solid rgb(10, 102, 194);
+  background-color: white;
   border-radius: 30px;
   color: rgb(10, 102, 194);
   font-size: 15px;
   cursor: pointer;
   font-weight: 600;
+  transition: background-color 0.15s;
+}
+
+#save-btn:hover {
+  background-color: rgb(210, 232, 253);
+  border: 2px solid rgb(10, 102, 194);
 }
